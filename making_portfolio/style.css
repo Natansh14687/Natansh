@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+html{
+    background-color: #0f101c;
+    overflow: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+}
+.name{
+    font-family: "Dancing Script", cursive;
+    /* font-family: "Sixtyfour", sans-serif;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0; */
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: xx-large;
+    line-height: 50px;
+    letter-spacing: 5px;
+    transition: scale 2s;
+}
+.name:hover{
+    scale: 1.3;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    line-height: 50px;
+}
+a:hover{
+    text-shadow: white 0px 4px 3px;
+    opacity: 0.5;
+}
+.menu{
+    box-shadow: whitesmoke -2px 2px 10px;
+    /* margin: 20px; */
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.big-circle{
+    vertical-align: middle;
+    padding:50px 60px 60px 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    box-shadow: #78787d 1px -4px  35px ;
+    margin: 50px;
+    transition: scale 2s;
+}
+.Natansh_pic{
+    vertical-align: middle;
+    border-radius: 50%;
+    /* padding: 15px; */
+    border: 5px solid whitesmoke;
+    height: 300px;
+    width: 300px;
+
+}
+.big-circle:hover{
+    scale: 0.84;
+}
+.profile{
+    display: flex;
+}
+.desc{
+    font-family: "Dancing Script", cursive;
+    color: blanchedalmond;
+    margin-top: 80px;
+    font-family: "Caveat", cursive;
+    transition: steps() ease-in-out 2s;
+}
+.desc span{
+    font-size: 40px;
+    margin-left: 50px;
+}
+#Coder{
+    font-size: 90px;
+    color: yellow;
+    letter-spacing: 6px;
+    font-family: "Protest Revolution", sans-serif;
+}
+#para{
+    font-size: large;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.button1{
+    background-color: #0f101c;
+    padding: 10px 30px 10px 30px;
+    margin-left: 100px;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 10px;
+    box-shadow: yellow 2px 10px 30px;
+}
+.button1:hover{
+    border-color: red;
+    color: red;
+    box-shadow: red 2px 10px 30px;
+}
+
+
+
